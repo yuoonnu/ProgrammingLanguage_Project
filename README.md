@@ -36,7 +36,7 @@
 
 ```bash
 # 1. 프로젝트 다운로드 (Clone)
-git clone [https://github.com/본인아이디/JongGang-Survival.git](https://github.com/본인아이디/JongGang-Survival.git)
+git clone [https://github.com/yuoonnu/JongGang-Survival.git](https://github.com/yuoonnu/JongGang-Survival.git)
 
 # 2. 프로젝트 폴더로 이동
 cd JongGang-Survival
