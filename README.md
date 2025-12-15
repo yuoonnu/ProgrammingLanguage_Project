@@ -7,9 +7,8 @@
 한정된 예산으로 14일 동안 멘탈과 건강을 지키며 생존하는 **파이썬 기반의 시뮬레이션 게임**입니다.
 
 ## 📸 스크린샷
-<img width="2197" height="1496" alt="image" src="https://github.com/user-attachments/assets/4d7445df-292e-4cdf-bf9e-1bfa1adac172" />
-<img width="2192" height="1494" alt="image" src="https://github.com/user-attachments/assets/73e6932a-5c42-444e-93f1-0144ad4877c1" />
-
+<img width="2197" height="1496" alt="스크린샷 2025-12-15 124129" src="https://github.com/user-attachments/assets/6fe303ff-d1d2-4f47-a5c1-c5130d109940" />
+<img width="2192" height="1494" alt="스크린샷 2025-12-15 124225" src="https://github.com/user-attachments/assets/d41d4381-e57d-4f13-8e17-6d64343ee1ad" />
 
 ## 🎮 게임 소개
 당신에게 남은 것은 단돈 **10만 원**과 **2주**의 시간!
@@ -54,7 +53,7 @@ python main.py
 **Download ZIP**을 클릭하여 압축을 풉니다.
 압축 푼 폴더 안에서 터미널(CMD)을 엽니다.
 아래 명령어를 입력하여 게임을 실행합니다.
-```Bash
+```bash
 
 # 필수 라이브러리 설치
 pip install pygame
