@@ -81,7 +81,7 @@ class Food:
             content_rect = raw_image.get_bounding_rect()
             cropped_image = raw_image.subsurface(content_rect)
 
-            # 3. [수정됨] 크기를 40x40으로 더 작게 줄임! (아주 귀여운 사이즈)
+            # 3. 크기를 40x40으로 작게 줄임
             scaled_image = pygame.transform.scale(cropped_image, (40, 40))
             
             return scaled_image
@@ -99,15 +99,13 @@ class Food:
         pygame.draw.rect(screen, bg_color, self.rect, border_radius=12)
         pygame.draw.rect(screen, border_color, self.rect, 2, border_radius=12)
         
-        # [수정됨] 이미지 그리기 위치 조정
+        # 이미지 그리기 위치 조정
         if self.image:
             if is_soldout:
                 self.image.set_alpha(100) 
             else:
                 self.image.set_alpha(255)
             
-            # 작아진 만큼 오른쪽 구석으로 더 밀착시켰습니다.
-            # (rect.right - 30 위치)
             img_rect = self.image.get_rect(center=(self.rect.right - 30, self.rect.centery))
             screen.blit(self.image, img_rect)
 
@@ -133,4 +131,5 @@ class Food:
             screen.blit(sold_surf, (self.rect.x + 15, self.rect.y + 70))
         
         count_text = f"{count}/{MAX_EAT_COUNT}"
+
         screen.blit(small_font.render(count_text, True, text_color), (self.rect.right - 40, self.rect.bottom - 15))
