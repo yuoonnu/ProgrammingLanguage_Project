@@ -31,24 +31,6 @@
 
 이 게임을 실행하려면 컴퓨터에 **Python(파이썬)** 이 설치되어 있어야 합니다.
 
-### 방법 1: 깃허브 사용이 익숙하신 분
-터미널(CMD)을 열고 아래 명령어를 순서대로 입력하세요.
-
-```bash
-# 1. 프로젝트 다운로드 (Clone)
-git clone [https://github.com/yuoonnu/JongGang-Survival.git](https://github.com/yuoonnu/JongGang-Survival.git)
-
-# 2. 프로젝트 폴더로 이동
-cd JongGang-Survival
-
-# 3. 필수 라이브러리 설치 (Pygame이 필요합니다!)
-pip install pygame
-
-# 4. 게임 실행
-python main.py
-```
-### 방법 2: 깃허브가 낯선 분 (ZIP 다운로드)
-
 이 페이지 오른쪽 위의 초록색 <> Code 버튼을 누릅니다.
 **Download ZIP**을 클릭하여 압축을 풉니다.
 압축 푼 폴더 안에서 터미널(CMD)을 엽니다.
